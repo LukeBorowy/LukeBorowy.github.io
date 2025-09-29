@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luke Borowy - Projects</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="title-bar hide-for-medium" data-responsive-toggle="main-menu">
+        <button class="menu-icon" type="button" data-toggle="main-menu"></button>
+        <div class="title-bar-title">Menu</div>
+    </div>
+    <div class="top-bar" id="main-menu">
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">Luke Borowy</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="fun.html">Fun Stuff</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell">
+                <h1>My Projects</h1>
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="cell medium-6">
+                <h3><a href="https://dungeonpartyust.netlify.app/" target="_blank">Dungeon Party</a></h3>
+                <p>I created this game for my Senior Capstone class. Dungeon Party is a web-based game where you can play together with a group of friends (up to 15 people), using mobile devices or a personal computer. Gameplay consists of 5 different minigames, which you complete with your team of 2-3 players as you try to win enough skill points to gain treasure in the overworld! A Typescript frontend uses Socket.io to communicate with the backend Node.js server. PixiJs is used to display graphics efficiently.</p>
+            </div>
+            <div class="cell medium-6">
+                <a href="img/dungeon_party.png"><img class="float-center" style="max-height:350px" src="img/dungeon_party_small.png"></a>
+            </div>
+        </div>
+        <br>
+        <div class="grid-x grid-padding-x">
+            <div class="cell medium-6">
+                <h3><a href="https://troop58.netlify.app/" target="_blank">Meatsticks App</a></h3>
+                <p>I developed a Vue.js website to help a local Boy Scout troop conduct a months-long fundraising event. The system includes a mobile-focused flow for making sales along with integration with 3 different payment options. It also include an admin dashboard for leaders to use when making reports, transferring inventory, and managing the sales. I used Node.js with a PostgreSQL database to store inventory and sale records.</p>
+            </div>
+            <div class="cell medium-6">
+                <a href="img/meatsticks.png"><img class="float-center" style="max-height:350px" src="img/meatsticks_small.png"></a>
+            </div>
+        </div>
+        <br>
+        <div class="grid-x grid-padding-x">
+            <div class="cell medium-6">
+                <h3><a href="http://lukegame.x10host.com/" target="_blank">Stikk.io</a></h3>
+                <p>I developed a web-based multiplayer game using JavaScript and a Node.js server. I used the HTML5 Canvas API to efficiently display players and shapes. I gained players throughout my school and later throughout all 50 states!</p>
+            </div>
+            <div class="cell medium-6">
+                <a href="img/stikkio.png"><img class="float-center" style="max-height:350px" src="img/stikkio_small.png"></a>
+            </div>
+        </div>
+    </div>
+    <br />
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+
+</html>

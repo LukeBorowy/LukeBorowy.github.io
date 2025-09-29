@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luke Borowy</title>
+    <title>Luke Borowy - Home</title>
     <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+    <div class="title-bar hide-for-medium" data-responsive-toggle="main-menu">
         <button class="menu-icon" type="button" data-toggle="main-menu"></button>
         <div class="title-bar-title">Menu</div>
     </div>
@@ -17,37 +18,34 @@
         <div class="top-bar-left">
             <ul class="dropdown menu" data-dropdown-menu>
                 <li class="menu-text">Luke Borowy</li>
-                <li><a href="/home.html">Home</a></li>
-                <li><a href="/resume.html">Resume</a></li>
-                <li><a href="/projects.html">Projects</a></li>
-                <li><a href="/fun.html">Fun Stuff</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="fun.html">Fun Stuff</a></li>
             </ul>
         </div>
     </div>
 
-    <!-- main content within a `grid-container` -->
     <div class="grid-container">
-        <!-- `grid-x` represents a row -->
         <div class="grid-x grid-padding-x">
-            <div class="cell small-6 large-4" style="background-color: #ADD8E6;">Small 6 / Large 4</div>
-            <div class="cell small-6 large-8" style="background-color: #90EE90;">Small 6 / Large 8</div>
-        </div>
-
-        <div class="grid-x grid-padding-x">
-            <div class="cell large-auto" style="background-color: #ADD8E6;">One</div>
-            <div class="cell large-auto" style="background-color: #90EE90;">Two</div>
-            <div class="cell large-auto" style="background-color: #ADD8E6;">Three</div>
-            <div class="cell large-auto" style="background-color: #90EE90;">Four</div>
-            <div class="cell large-auto" style="background-color: #ADD8E6;">Five</div>
-        </div>
-
-        <div class="grid-x grid-padding-x" data-responsive-toggle="main-menu">
-            <button type="button" class="cell large-auto button" data-toggle="main-menu"
-                data-responsive-toggle="main-menu" data-hide-for="medium">Open Menu</button>
+            <div class="cell medium-6">
+                <h1>About Me</h1>
+                <p>I'm a student at the University of St. Thomas, and I am currently in my fourth year here. I am majoring in Computer Science, as well as in Spanish. 
+                    I was previously only minoring in Spanish, but I have decided to switch to a double major instead. </p>
+                <p>
+                    I would consider computer science and programming to be my primary interest, having programmed since childhood in several different languages. I have experienced and enjoyed coding in a wide array of applications, including video games, simulations, machine learning, web development, and robotics. I love working with technical systems and the logical problem-solving is very satisfying when making my own projects.
+                </p>
+                <p>
+                    I decided to major in Spanish just because I enjoyed learning the language. I am following the lingustics track within the major, which interests me due to the similarities to computer science in many aspects, due to the analytical way in which language is studied.
+                </p>
+            </div>
+            <div class="cell medium-6">
+                <a href="img/professional_photo.jpg"><img class="float-center" style="max-height:500px" src="img/professional_photo_small.jpg"></a>
+            </div>
         </div>
     </div>
+    <br />
 
-    <!-- include before closing <body> tag -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
